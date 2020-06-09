@@ -9,10 +9,9 @@ import org.springframework.cloud.netflix.zuul.EnableZuulServer;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableZuulProxy
+
 public class CodebaseGatewayApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CodebaseGatewayApplication.class, args);
-	}
+	public static void main(String[] args) { SpringApplication.run(CodebaseGatewayApplication.class, args); }
 
 }
